@@ -3,11 +3,18 @@
 ?>
 
 
-<main><?php
+<main>
+<div class="container">
+<div class="discs-container"><?php
     foreach ($arr_disk as $response) { ?>
-            <img src="<?= $response['poster']?>">
-            <h2><?= $response['title']?></h2>
-            <p><?= $response['author']?></p>
-            <p><?= $response['year']?></p><?
+         <div class="disc">
+             <img src="<?= $response['poster']?>">
+             <h6 class="title"><?= $response['title']?></h6>
+             <p class="p"><?= $response['author']?></p>
+             <p class="p-year"><?= $response['year']?></p>
+         </div><?php
     }?>
+</div>
+</div>
+
 </main>

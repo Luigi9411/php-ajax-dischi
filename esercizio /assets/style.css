@@ -17,7 +17,51 @@ header {
 header{
     background-color: #2E3A46;
 }
-main {
-background-color: red;
 
+main{
+    background-color: #1E2D3B;
+    padding-top: 3em;
+}
+
+.discs-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.disc {
+	flex: 1 0 15%;
+	margin: 15px;
+	padding: 20px;
+	border-radius: 6px;
+	background: #2E3A46;
+	color: white;
+	text-align: center;
+}
+
+.disc img {
+	margin-bottom: 20px;
+	max-width: 80%;
+}
+
+.disc strong,
+.disc small {
+	display: block;
+	margin: 10px 0;
+}
+
+.title{
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.p{
+    font-size: .8em;
+    color: #757E83;
+}
+
+.p-year{
+    font-size: .8em;
+    color: #757E83;
+    line-height: .05em;
 }

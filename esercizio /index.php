@@ -1,3 +1,7 @@
+<?php 
+    include __DIR__ . '/settings.php';
+?>    
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
